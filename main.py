@@ -8,9 +8,11 @@ from notify import notify
 
 
 ## Import Site-Specific Checkers
+from websites.newegg import check as newegg
 
 
 CHECK = {
+            'newegg': newegg,
         }
 
 
