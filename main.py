@@ -9,10 +9,12 @@ from notify import notify
 
 ## Import Site-Specific Checkers
 from websites.newegg import check as newegg
+from websites.bestbuy import check as bestbuy
 
 
 CHECK = {
             'newegg': newegg,
+            'bestbuy': bestbuy,
         }
 
 
